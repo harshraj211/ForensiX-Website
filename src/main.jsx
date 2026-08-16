@@ -1,3 +1,4 @@
+import { createRoot } from "react-dom/client";
 import { useState } from "react";
 import {
   Activity,
@@ -188,3 +189,5 @@ function DownloadCard({ platform, detail, href, primary = false }) {
 }
 
 export default App;
+
+createRoot(document.getElementById("root")).render(<App />);
