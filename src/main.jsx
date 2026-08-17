@@ -28,12 +28,12 @@ import {
 } from "lucide-react";
 import "./styles.css";
 
-const release = "v1.0.0";
-const releasePage = "https://github.com/harshraj211/ForensiX/releases/tag/v1.0.0";
+const release = "v1.0.1";
+const releasePage = "https://github.com/harshraj211/ForensiX/releases/tag/v1.0.1";
 const downloads = {
-  windows: "https://github.com/harshraj211/ForensiX/releases/download/v1.0.0/ForensiX-Windows-Portable.zip",
-  linux: "https://github.com/harshraj211/ForensiX/releases/download/v1.0.0/ForensiX-Linux-Portable.zip",
-  macos: "https://github.com/harshraj211/ForensiX/releases/download/v1.0.0/ForensiX-macOS-Portable.zip",
+  windows: "https://github.com/harshraj211/ForensiX/releases/download/v1.0.1/ForensiX-Windows-Portable.zip",
+  linux: "https://github.com/harshraj211/ForensiX/releases/download/v1.0.1/ForensiX-Linux-Portable.zip",
+  macos: "https://github.com/harshraj211/ForensiX/releases/download/v1.0.1/ForensiX-macOS-Portable.zip",
 };
 
 const capabilities = [
@@ -176,7 +176,7 @@ function App() {
 
         <section className="section-wrap section-block research-section"><div className="section-intro"><div><div className="eyebrow">RESEARCH NOTES</div><h2>Ambition is useful. Overclaiming is not.</h2></div><p>Some forensic access paths are real but narrow, device-specific, and dependent on historical security conditions. We will publish them with the boundaries they require.</p></div><div className="research-grid"><article><div className="research-head"><span className="research-status">RESEARCH</span><span>LEGACY ANDROID</span></div><h3>Android 7-10 pathways</h3><p>Older Android generations and pre-2019 patch levels may support additional device-specific investigation paths. Support cannot be generalized across OEMs.</p></article><article><div className="research-head"><span className="research-status">PLANNED</span><span>EXPLICIT LIMITS</span></div><h3>APK downgrade research</h3><p>Any future downgrade workflow will be limited by package signing, rollback protection, app state, and device policy. It will not be presented as a universal recovery method.</p></article><article><div className="research-head"><span className="research-status muted-status">OUT OF SCOPE</span><span>NO CLAIM</span></div><h3>Passwords and lock bypass</h3><p>Brute force, lock bypassing, and unverified access escalation are not part of the current product promise.</p></article></div></section>
 
-        <section className="final-cta"><div className="section-wrap final-cta-inner"><div><div className="eyebrow">MAKE THE RECORD STRONGER</div><h2>Start with the release that is available today.</h2></div><a className="button button-primary" href={downloads.windows}>Download v1.0.0 <Download size={17} /></a></div></section>
+        <section className="final-cta"><div className="section-wrap final-cta-inner"><div><div className="eyebrow">MAKE THE RECORD STRONGER</div><h2>Start with the release that is available today.</h2></div><a className="button button-primary" href={downloads.windows}>Download v1.0.1 <Download size={17} /></a></div></section>
       </main>
 
       <footer className="footer"><div className="section-wrap footer-inner"><div className="footer-brand"><a className="brand" href="#top"><span className="brand-mark"><ShieldCheck size={19} /></span><span className="brand-word">FORENSIX</span></a><p>Local Android evidence work, with its limits attached.</p></div><div className="footer-links"><div><strong>Product</strong><a href="#capabilities">Capabilities</a><a href="#workflow">Workflow</a><a href="#downloads">Downloads</a></div><div><strong>Project</strong><a href="https://github.com/harshraj211/ForensiX" target="_blank" rel="noreferrer">Workstation source <ExternalLink size={13} /></a><a href={releasePage} target="_blank" rel="noreferrer">GitHub releases <ExternalLink size={13} /></a><a href="https://github.com/harshraj211/ForensiX-Website/issues" target="_blank" rel="noreferrer">Contact / issues <ExternalLink size={13} /></a></div></div></div><div className="section-wrap footer-bottom"><span>ForensiX {release}</span><span>Designed for authorized examination and controlled testing.</span></div></footer>

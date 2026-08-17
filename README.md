@@ -19,4 +19,4 @@ pnpm build
 
 The site separates shipped capabilities from rooted or privileged access and from research/planned work. It must not present temporary rooting, password brute force, Qualcomm/EDL extraction, lock bypassing, or universal APK downgrading as current product features.
 
-Current download links point to the ForensiX `v1.0.0` GitHub release.
+Current download links point to the ForensiX `v1.0.1` GitHub release.
